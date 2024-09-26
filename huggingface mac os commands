@@ -1,7 +1,6 @@
 # this command will list all the local hugging face models downloaded in a mac.
 
-
-ls ~/.cache/huggingface/hub | grep 'models--'
+  ls ~/.cache/huggingface/hub | grep 'models--'
 
 
 
@@ -10,4 +9,7 @@ ls ~/.cache/huggingface/hub | grep 'models--'
   du -sh ~/.cache/huggingface/hub/models--*
 
 
-  
+
+# this is the command to delete a model from the local 
+
+  rm -rf ~/.cache/huggingface/hub/models--mlx-community--Mistral-7B-Instruct-v0.3-4bit
