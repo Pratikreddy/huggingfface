@@ -1,0 +1,13 @@
+# this command will list all the local hugging face models downloaded in a mac.
+
+
+ls ~/.cache/huggingface/hub | grep 'models--'
+
+
+
+# this will display the storage used along with the model
+
+  du -sh ~/.cache/huggingface/hub/models--*
+
+
+  
